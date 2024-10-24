@@ -14,7 +14,7 @@ function prompt_char {
 
 # Line every return
 # PROMPT='$FG[237]----------------------------------------------------------------------------------------%{$reset_color%}
-PROMPT='%{$fg[gray]%}[%n@%m%{$reset_color%}:%c%{$reset_color%}%{$fg[gray]%}$(git_prompt_info)]$(prompt_char)%{$reset_color%} '
+PROMPT='%{$fg[cyan]%}%n@%m%{$reset_color%}:%{$fg[green]%}%c%{$reset_color%}%{$fg[gray]%}$(git_prompt_info)$(prompt_char)%{$reset_color%} '
 
 # %W instead of %D for us
 RPROMPT='$FG[059][%~]$FG[059][%D/%*]%(?,$FG[022][R-$?],$FG[130][$?])$FG[024][!%!]%{$reset_color%}'
